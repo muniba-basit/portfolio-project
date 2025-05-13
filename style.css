@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+:root{
+    --nav-color:#c60c8b;
+    --nav-text:#fff5fd;
+    --background:#62baac;
+    --nav-font:20px;
+
+}
+
+
+.header-box{
+background-color: var(--nav-color);
+padding-left: 20px;
+display:flex;
+justify-content:space-between;
+align-items: center;
+height:50px;
+}
+
+#name{
+    display:flex;
+    align-items: end;
+}
+h1{
+    text-align:left;
+    color:var(--nav-text);   
+    font-size: 30px;
+    font-style: bold; 
+}
+
+p{
+color:aqua;
+font-style:oblique;
+padding:5px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+    font-size: var(--nav-font);
+     color:var(--nav-text); 
+     text-decoration: none;
+}
+
+a{
+    font-size: var(--nav-font);
+     color:var(--nav-text); 
+}
+
+.background{
+     background-image: url(https://img.freepik.com/free-vector/ripped-notes-rectangle-frame-background_53876-99423.jpg);
+      background-size:cover;
+      height:60vh; 
+      background-position: center;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding:2 rem;
+      gap:2 rem;
+
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 14rem;
+  height: 12rem;
+  justify-content: left;
+  object-fit: contain; /* Prevents distortion */
+} 
